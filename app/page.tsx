@@ -92,6 +92,12 @@
 import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
 import ServicesSection from "@/components/ServicesSection";
+import ConditionsSection from "@/components/ConditionsSection";
+import ProcessSection from "@/components/ProcessSection";
+import AboutSection from "@/components/AboutSection";
+import Testimonials from "@/components/Testimonials";
+import BlogPreview from "@/components/BlogPreview";
+import AppointmentCTA from "@/components/AppointmentCTA";
 
 export default function Home() {
   return (
@@ -101,6 +107,18 @@ export default function Home() {
       <TrustBar />
 
       <ServicesSection />
+
+      <ConditionsSection />
+
+      <ProcessSection />
+
+      <AboutSection />
+
+      <Testimonials />
+
+      <BlogPreview />
+
+      <AppointmentCTA />
     </main>
   );
 }
