@@ -65,25 +65,42 @@
 // }
 // ===================================
 
+// export default function Home() {
+//   return (
+//     // <main>
+//     <section className="min-h-screen flex items-center justify-center bg-blue-50">
+//       <div className="text-center max-w-3xl">
+//         <h1 className="text-5xl font-bold">
+//           Helping Children & Adults Find Their Voice
+//         </h1>
+
+//         <p className="mt-6 text-lg text-gray-600">
+//           Professional speech therapy services designed to improve communication
+//           skills.
+//         </p>
+
+//         <button className="mt-8 bg-blue-600 text-white px-8 py-3 rounded-lg">
+//           Request Appointment
+//         </button>
+//       </div>
+//     </section>
+//     // </main>
+//   );
+// }
+
+// =====================================
+import Hero from "@/components/Hero";
+import TrustBar from "@/components/TrustBar";
+import ServicesSection from "@/components/ServicesSection";
+
 export default function Home() {
   return (
     <main>
-      <section className="min-h-screen flex items-center justify-center bg-blue-50">
-        <div className="text-center max-w-3xl">
-          <h1 className="text-5xl font-bold">
-            Helping Children & Adults Find Their Voice
-          </h1>
+      <Hero />
 
-          <p className="mt-6 text-lg text-gray-600">
-            Professional speech therapy services designed to improve
-            communication skills.
-          </p>
+      <TrustBar />
 
-          <button className="mt-8 bg-blue-600 text-white px-8 py-3 rounded-lg">
-            Request Appointment
-          </button>
-        </div>
-      </section>
+      <ServicesSection />
     </main>
   );
 }

@@ -2,7 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -127,4 +127,51 @@
   html {
     @apply font-sans;
   }
+} */
+
+/* =============================== */
+
+:root {
+  --ink: #1c2b28;
+  --paper: #f3f7f5;
+  --harbor: #2b6f6a;
+  --harbor-deep: #1b4a47;
+  --ember: #e2984f;
+  --mist: #e3eeea;
+  --line: #cfe0da;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-public);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-fraunces);
+  color: var(--harbor-deep);
+}
+
+.container-custom {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+@keyframes pulseWave {
+  0%,
+  100% {
+    transform: scaleY(0.55);
+  }
+
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.wave-bar {
+  animation: pulseWave 2.4s ease-in-out infinite;
+  transform-origin: bottom;
 }
