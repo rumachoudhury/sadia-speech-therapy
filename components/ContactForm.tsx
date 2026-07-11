@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <form className="space-y-4">
+    <form className="space-y-4 ">
       <input className="w-full border p-3 rounded" placeholder="Name" />
 
       <input className="w-full border p-3 rounded" placeholder="Email" />
@@ -10,7 +10,7 @@ export default function ContactForm() {
         placeholder="Your Message"
       />
 
-      <button className="bg-blue-600 text-white px-6 py-3 rounded">
+      <button className="  bg-[#E2984F] text-white px-6 py-3 rounded">
         Send Message
       </button>
     </form>
