@@ -1,6 +1,4 @@
 import AppointmentForm from "@/components/AppointmentForm";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export default function AppointmentPage() {
   return (

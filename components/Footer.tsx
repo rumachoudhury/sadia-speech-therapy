@@ -12,6 +12,7 @@
 // }
 // ===================
 import Link from "next/link";
+import Map from "./Map";
 
 const site = ["Home", "About", "Services", "Conditions", "Blog"];
 
@@ -73,19 +74,8 @@ mb-4
               Stony Brook, NY 11790
             </p>
 
-            <div
-              className="
-mt-5
-h-32
-rounded-lg
-bg-[#123331]
-flex
-items-center
-justify-center
-text-sm
-"
-            >
-              Google Map Embed
+            <div className="mt-5">
+              <Map />
             </div>
           </div>
 
