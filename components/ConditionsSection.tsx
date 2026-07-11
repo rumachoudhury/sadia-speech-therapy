@@ -15,7 +15,7 @@ export default function ConditionsSection() {
   ];
 
   return (
-    <section className="bg-[#1B4A47] py-20">
+    <section className="bg-[#1B4A47] py-16">
       <div className="container-custom">
         <span className="text-sm uppercase tracking-widest text-white">
           Conditions Treated
@@ -25,7 +25,7 @@ export default function ConditionsSection() {
           Whatever&apos;s getting in the way of being understood.
         </h2>
 
-        <div className="flex flex-wrap gap-3 mt-10">
+        <div className="flex flex-wrap gap-3 ">
           {conditions.map((item, index) => (
             <span
               key={item}
