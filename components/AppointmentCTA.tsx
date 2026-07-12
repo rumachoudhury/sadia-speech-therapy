@@ -58,7 +58,7 @@
 
 export default function AppointmentCTA() {
   return (
-    <section className="py-8 md:py-16">
+    <section className="py-8 md:py-16 mt-8">
       <div
         className="
         max-w-7xl
