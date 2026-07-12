@@ -4,7 +4,7 @@ import { Phone } from "lucide-react";
 export default function Hero() {
   return (
     <section className="bg-[#F3F7F5] min-h-[700px] flex items-center">
-      <div className="container-custom py-24">
+      <div className="container-custom py-12 lg:py-6">
         <div
           className="
           grid
@@ -23,7 +23,8 @@ export default function Hero() {
               tracking-[0.15em]
               text-[#2B6F6A]
               font-medium
-              p-6 md:p-4
+              mb-4
+              py-4 md:py-0
             "
             >
               Speech-Language Pathology · Children & Adults
