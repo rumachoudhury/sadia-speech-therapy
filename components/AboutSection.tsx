@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutSection() {
   return (
     <section className="py-8 md:py-12">
@@ -10,18 +12,16 @@ gap-12
 items-center
 "
       >
-        <div
-          className="
-h-[420px]
-rounded-xl
-bg-[#E3EEEA]
-flex
-items-center
-justify-center
-text-gray-500
-"
-        >
-          Photo of Sadia
+        {/* Photo */}
+
+        <div className="relative h-[420px] w-full">
+          <Image
+            src="/images/premium_photo-1664910451337-27077e14c96c.avif"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Sadia - Speech Language Pathologist"
+            className="object-cover overflow-hidden  rounded-2xl"
+          />
         </div>
 
         <div>
