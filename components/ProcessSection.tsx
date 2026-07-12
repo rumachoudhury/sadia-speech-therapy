@@ -23,7 +23,7 @@ export default function ProcessSection() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-24">
       <div className="container-custom">
         <div className="max-w-xl">
           <p className="text-sm uppercase tracking-widest text-[#2B6F6A]">

@@ -78,7 +78,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#E3EEEA] py-20">
+    <section className="bg-[#E3EEEA] py-20 mt-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
           <p className="uppercase tracking-[0.2em] text-sm font-medium text-[#2B6F6A]">

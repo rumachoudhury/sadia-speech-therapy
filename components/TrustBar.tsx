@@ -4,7 +4,7 @@ export default function TrustBar() {
       className="
 bg-[#E3EEEA]
 border-y
-border-[#CFE0DA] py-3 md:py-4 mt-8  max-width 1180
+border-[#CFE0DA] py-16  md:py-4 mt-8 md:mt-0 max-width 1180
 "
     >
       <div

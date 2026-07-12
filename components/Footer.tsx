@@ -13,7 +13,7 @@ const patients = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1B4A47] text-[#CFE3DF]">
+    <footer className="bg-[#1B4A47] text-[#CFE3DF] mt-20">
       <div className="max-w-[1180px] mx-auto px-6 py-16">
         <div
           className="

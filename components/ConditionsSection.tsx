@@ -15,7 +15,7 @@ export default function ConditionsSection() {
   ];
 
   return (
-    <section className="bg-[#1B4A47] py-12 lg:py-20">
+    <section className="bg-[#1B4A47] py-12 lg:py-20 mt-8">
       <div className="container-custom">
         <span className="text-2xl lg:text-sm uppercase tracking-widest text-white">
           Conditions Treated

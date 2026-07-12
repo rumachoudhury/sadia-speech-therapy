@@ -6,7 +6,7 @@ export default function BlogPreview() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-12 md:py-20 mt-8">
       <div className="container-custom">
         <p className="text-sm uppercase tracking-widest text-[#2B6F6A]">
           Resources & Blog

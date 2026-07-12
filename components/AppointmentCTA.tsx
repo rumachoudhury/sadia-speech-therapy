@@ -56,10 +56,9 @@
 
 // =====================
 
-import Link from "next/link";
 export default function AppointmentCTA() {
   return (
-    <section className="py-24">
+    <section className="py-8 md:py-16">
       <div
         className="
         max-w-7xl
