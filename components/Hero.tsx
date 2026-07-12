@@ -23,6 +23,7 @@ export default function Hero() {
               tracking-[0.15em]
               text-[#2B6F6A]
               font-medium
+              p-6 md:p-4
             "
             >
               Speech-Language Pathology · Children & Adults
