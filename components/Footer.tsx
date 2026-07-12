@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Map from "./Map";
+// import { Facebook, Instagram } from "lucide-react";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const site = ["Home", "About", "Services", "Conditions", "Blog"];
 
@@ -86,7 +88,7 @@ export default function Footer() {
 
             <p>hello@clarityspeech.com</p>
 
-            <div className="flex gap-3 mt-4">
+            {/* <div className="flex gap-3 mt-4">
               <div
                 className="
                 w-8 h-8 rounded-full
@@ -106,6 +108,35 @@ export default function Footer() {
               >
                 ◎
               </div>
+            </div> */}
+
+            <div className="flex gap-3 mt-4">
+              <Link
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-[#1B4A47] transition-colors"
+              >
+                <FaFacebookF size={14} />
+              </Link>
+
+              <Link
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-[#1B4A47] transition-colors"
+              >
+                <FaInstagram size={14} />
+              </Link>
+
+              <Link
+                href="https://www.linkedin.com/in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center hover:bg-white hover:text-[#1B4A47] transition-colors"
+              >
+                <FaLinkedinIn size={14} />
+              </Link>
             </div>
           </div>
         </div>
